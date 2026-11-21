@@ -38,7 +38,7 @@ Draw **8 slots with logical size 4**. Label indices, active items, free slots an
 Array (8 Slots) Logical Size = 4
 
 Indices = | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7|
- Elements=|10 |20 |30|40 | - | - | - | - | 
+ Elements=|70 |80 |90|85 | - | - | - | - | 
 
 Active indices: 0, 1, 2, 3
 Free indices: 4, 5, 6, 7
