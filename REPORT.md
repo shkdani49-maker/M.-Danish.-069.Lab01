@@ -90,7 +90,17 @@ Column index (j) = 3
 Number of columns = 5
 
 Formula:
-Address(M[i][i]) = B+ [(i x C+j)
+Address(M[i][j]) = B+ [(i x C+j)
+where C = number of columns = 5.
+= 2000 + [(2 x 5+3) × 4 
+
+= 2000+ [(10+3) × 4
+
+= 2000 + (13 × 4 ) 
+
+= 2000 + 52
+
+Address(M[2][3]) = 2052
 
 
 ## 3. Task B — Insertion/deletion trace
