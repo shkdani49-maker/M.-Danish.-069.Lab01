@@ -44,7 +44,9 @@ Active indices: 0, 1, 2, 3
 Free indices: 4, 5, 6, 7
 Next append index: 4
 
-**1D address worksheet:** Given `B=4000`, `w=4`, calculate `A[0]`, `A[3]`, `A[7]`. Show steps
+**1D address worksheet:**
+ Given `B=4000`, `w=4`, calculate `A[0]`, `A[3]`, `A[7]`. Show steps
+
 1D Address:
 Given:
 Base address (B) = 4000
