@@ -106,6 +106,10 @@ where C = number of columns = 5.
 Address(M[2][3]) = 2052
 
 
+Explanation:
+
+In row-major order, elements are stored row by row. We multiply the linear offset by 4 because each element occupies 4 bytes in memory.
+
 ## 3. Task B — Insertion/deletion trace
 
 Using initial active values `[70, 80, 90, 85]`, `size=4`, `capacity=8`, trace insertion of `75` at index `2`. Show **each shift**, the new element and final logical size.
