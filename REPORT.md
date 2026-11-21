@@ -9,9 +9,18 @@
 
 Describe the task and state the relationship among capacity, logical size and active indices.
 
-## 2. Task A — Array diagram and address calculations
-
+## 2. Task A — Array diagram and address calculations:
 Draw **8 slots with logical size 4**. Label indices, active items, free slots and the next append index.
+
+Array (8 Slots) Logical Size = 4
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7|
+|10 |20 |30|40 | - | - | - | - | 
+
+Active Items Free Slots
+Active indices: 0, 1, 2, 3
+Free indices: 4, 5, 6, 7
+Next append index: 4
 
 **1D address worksheet:** Given `B=4000`, `w=4`, calculate `A[0]`, `A[3]`, `A[7]`. Show steps.
 
