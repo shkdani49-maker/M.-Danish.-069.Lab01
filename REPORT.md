@@ -241,8 +241,8 @@ Program exited.
 | Delete last | [70,80,90,85], Delete index 3 |[70,80,90] |[70,80,90] |Pass |
 | Insert when full |Size = 8, Insert 75 |Insertion failed |Insertion failed |pass|
 | Delete when empty |Size = 0, Delete index 0 |Deletion failed |Deletion failed |pass |
-| Invalid negative index | | | | |
-| Invalid index == size | | | | |
+| Invalid negative index |Insert at index -1  |Invalid index |Invalid index |Pass |
+| Invalid index == size |Insert at index 5, Size = 4 |Invalid index |Invalid index |pass |
 
 Add other tests you used.
 
