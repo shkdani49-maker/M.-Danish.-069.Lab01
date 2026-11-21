@@ -243,6 +243,7 @@ Program exited.
 | Delete when empty |Size = 0, Delete index 0 |Deletion failed |Deletion failed |pass |
 | Invalid negative index |Insert at index -1  |Invalid index |Invalid index |Pass |
 | Invalid index == size |Insert at index 5, Size = 4 |Invalid index |Invalid index |pass |
+| Invalid negative index |Insert at index -1  |Invalid index |Invalid index |Pass |
 
 Add other tests you used.
 
