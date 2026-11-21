@@ -1,23 +1,30 @@
-#include "lab01.hpp"
+ function:
 
 bool insertAt(int a[], int& size, int cap, int pos, int x) {
-    // TODO: reject insertion when full or when pos is outside [0, size].
-    // TODO: shift from right to left, insert x, then update size.
-    // The starter compiles but is intentionally incomplete.
-    (void)a;
-    (void)size;
-    (void)cap;
-    (void)pos;
-    (void)x;
-    return false;
+    if (size == cap || pos < 0 || pos > size)
+        return false;
+
+    for (int i = size; i > pos; i--) {
+        a[i] = a[i - 1];
+    }
+
+    a[pos] = x;
+    size++;
+
+    return true;
 }
 
+Delete Function:
+
 bool deleteAt(int a[], int& size, int pos) {
-    // TODO: reject positions outside [0, size-1].
-    // TODO: shift from left to right and decrease size.
-    // Never read a[size].
-    (void)a;
-    (void)size;
-    (void)pos;
-    return false;
+    if (pos < 0 || pos >= size)
+        return false;
+
+    for (int i = pos; i < size - 1; i++) {
+        a[i] = a[i + 1];
+    }
+
+    size--;
+
+    return true;
 }
