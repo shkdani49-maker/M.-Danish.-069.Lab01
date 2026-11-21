@@ -193,6 +193,7 @@ Sample run:
 
 Enter choice:
  1
+
 Array: 70 80 90 85
 
 Size: 4
