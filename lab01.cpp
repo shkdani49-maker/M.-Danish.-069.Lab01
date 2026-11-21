@@ -1,3 +1,5 @@
+
+#include "lab01.hpp
 Insert function:
 
 bool insertAt(int a[], int& size, int cap, int pos, int x) {
