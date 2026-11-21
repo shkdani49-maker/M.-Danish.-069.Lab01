@@ -148,6 +148,27 @@ Final Array:
 
 New Logical Size = 5
 
+Deletion of Element at Index 1:
+
+Initial Updated Array:
+
+[70, 80, 75, 90, 85]
+
+Step 1: Delete element at index 1 (80).
+
+Step 2: Shift elements one position left.
+
+Index 2 → Index 1 (75)
+
+Index 3 → Index 2 (90)
+
+Index 4 → Index 3 (85)
+
+Final Array:
+[70, 75, 90, 85]
+
+New Logical Size = 4
+Capacity = 8
 
 ## 4. Task C — Menu demonstration
 
