@@ -40,7 +40,6 @@ Array (8 Slots) Logical Size = 4
 Indices = | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7|
  Elements=|10 |20 |30|40 | - | - | - | - | 
 
-Active Items Free Slots
 Active indices: 0, 1, 2, 3
 Free indices: 4, 5, 6, 7
 Next append index: 4
