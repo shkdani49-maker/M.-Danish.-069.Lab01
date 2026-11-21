@@ -257,21 +257,35 @@ n = Number of active elements before operation.
 p = Target index/position.
 1. Insertion
 Number of shifts:
+
  n-p
+
 Worst Case: O(n)
+
 Auxiliary Space: O(1)
+
 2. Deletion
+
 Number of shifts:
+
 n-p-1
 
 Worst Case: O(n)
+
 Auxiliary Space: O(1)
-Assumptions and Restrictions
+
+Assumptions and Restrictions:
+
 Array capacity is fixed at 8.
+
 Valid indices start from 0.
+
 Insertion is not allowed when the array is full.
+
 Deletion is not allowed when the array is empty.
+
 Invalid indices are not allowed.
+
 Only active elements are shifted.
 
 
