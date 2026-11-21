@@ -74,6 +74,19 @@ Formula: Address[A(i)]= Base+(index × width)
 
 **2D row-major worksheet:** Given `M[4][5]`, `B=2000`, `w=4`, calculate `M[2][3]`. Show the linear offset and explain why it is multiplied by element width.
 
+2D Row-Major
+
+Given:
+Array = M[4][5]
+Base address (B) = 2000
+Element width (w) = 4 bytes
+Row index (i) = 2
+Column index (j) = 3
+Number of columns = 5
+Formula:
+Address(M[i][i]) = B+ [(i x C+j)
+
+
 ## 3. Task B — Insertion/deletion trace
 
 Using initial active values `[70, 80, 90, 85]`, `size=4`, `capacity=8`, trace insertion of `75` at index `2`. Show **each shift**, the new element and final logical size.
