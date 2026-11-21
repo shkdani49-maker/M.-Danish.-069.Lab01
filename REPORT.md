@@ -78,11 +78,17 @@ Formula: Address[A(i)]= Base+(index × width)
 
 Given:
 Array = M[4][5]
+
 Base address (B) = 2000
+
 Element width (w) = 4 bytes
+
 Row index (i) = 2
+
 Column index (j) = 3
+
 Number of columns = 5
+
 Formula:
 Address(M[i][i]) = B+ [(i x C+j)
 
