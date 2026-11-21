@@ -253,6 +253,28 @@ Other tests:
 
 Define `n` as the number of active elements before the operation and `p` as the target position. State the number of element shifts for insertion and deletion. Explain worst-case time and auxiliary-space complexity. State any assumptions and restrictions.
 
+n = Number of active elements before operation.
+p = Target index/position.
+1. Insertion
+Number of shifts:
+ n-p
+Worst Case: O(n)
+Auxiliary Space: O(1)
+2. Deletion
+Number of shifts:
+n-p-1
+
+Worst Case: O(n)
+Auxiliary Space: O(1)
+Assumptions and Restrictions
+Array capacity is fixed at 8.
+Valid indices start from 0.
+Insertion is not allowed when the array is full.
+Deletion is not allowed when the array is empty.
+Invalid indices are not allowed.
+Only active elements are shifted.
+
+
 ## 7. Reflection and viva preparation
 
 1. How many shifts are required to insert at position `p` into an active list of `n` elements?
