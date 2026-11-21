@@ -236,7 +236,7 @@ Program exited.
 | Test case | Initial state / input | Expected result | Actual result | Pass/Fail |
 |---|---|---|---|---|
 | Insert in middle |{70,80,90,85], Insert 75 at index 2  |[70,80,75,90,85] | [70,80,75,90,85]  | Pass |
-| Delete first | | | | |
+| Delete first | [70,80,90,85], Delete index 0 | [80,90,85] | [80,90,85]|Pass |
 | Delete middle | | | | |
 | Delete last | | | | |
 | Insert when full | | | | |
