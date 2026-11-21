@@ -292,8 +292,25 @@ Only active elements are shifted.
 ## 7. Reflection and viva preparation
 
 1. How many shifts are required to insert at position `p` into an active list of `n` elements?
+Formula:
+
+
+Shifts = n - p
+
+
+Example: n = 4, p = 2
+
+
+Shifts =4-2= 2
+
+
 2. Why does insertion shift backward while deletion shifts forward?
+
+Insertion shifts elements backward to make space. Deletion shifts elements forward to fill the empty position.
+
 3. Which workload favors arrays: frequent indexed access or frequent front insertion? Explain.
+
+Frequent indexed access favors arrays because elements can be accessed directly using their index.
 
 **One bug I encountered:**  
 **How I detected it:**  
