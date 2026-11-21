@@ -1,0 +1,9 @@
+# Local C++ binaries and temporary files
+main
+main.exe
+*.o
+*.obj
+*.out
+*.exe
+.build/
+.vscode/*.log
