@@ -116,6 +116,35 @@ Using initial active values `[70, 80, 90, 85]`, `size=4`, `capacity=8`, trace in
 
 Then trace deletion of the element at **index 1** from the updated array. Describe which indices move and the resulting active values.
 
+Insertion:
+
+Insertion of 75 at Index 2
+
+Initial Array:
+
+[70, 80, 90, 85]
+
+Size = 4, Capacity = 8
+
+Step 1: Shift 85 from index 3 to index 4.
+
+[70, 80, 90, 85, 85]
+
+Step 2: Shift 90 from index 2 to index 3.
+
+[70, 80, 90, 90, 85]
+
+Step 3: Insert 75 at index 2.
+
+[70, 80, 75, 90, 85]
+
+Final Array:
+
+[70, 80, 75, 90, 85]
+
+New Logical Size = 5
+
+
 ## 4. Task C — Menu demonstration
 
 Describe how to use your four menu options. Show a sample run or a concise input/output log. Include one failed insertion at full capacity and one failed deletion from an empty list.
