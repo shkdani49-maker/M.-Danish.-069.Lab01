@@ -237,10 +237,10 @@ Program exited.
 |---|---|---|---|---|
 | Insert in middle |{70,80,90,85], Insert 75 at index 2  |[70,80,75,90,85] | [70,80,75,90,85]  | Pass |
 | Delete first | [70,80,90,85], Delete index 0 | [80,90,85] | [80,90,85]|Pass |
-| Delete middle | | | | |
-| Delete last | | | | |
-| Insert when full | | | | |
-| Delete when empty | | | | |
+| Delete middle |[70,80,90,85], Delete index 2 | [70,80,85] | [70,80,85] | Pass |
+| Delete last | [70,80,90,85], Delete index 3 |[70,80,90] |[70,80,90] |Pass |
+| Insert when full |Size = 8, Insert 75 |Insertion failed |Insertion failed |pass|
+| Delete when empty |Size = 0, Delete index 0 |Deletion failed |Deletion failed |pass |
 | Invalid negative index | | | | |
 | Invalid index == size | | | | |
 
