@@ -44,7 +44,31 @@ Active indices: 0, 1, 2, 3
 Free indices: 4, 5, 6, 7
 Next append index: 4
 
-**1D address worksheet:** Given `B=4000`, `w=4`, calculate `A[0]`, `A[3]`, `A[7]`. Show steps.
+**1D address worksheet:** Given `B=4000`, `w=4`, calculate `A[0]`, `A[3]`, `A[7]`. Show steps
+1D Address:
+Given:
+Base address (B) = 4000
+Element width (w) = 4 bytes
+
+Formula: Address[A(i)]= Base+(index × width) 
+
+1. A[0]
+
+= 4000 + (0 × 4)
+
+= 4000
+
+2. A[3]
+
+= 4000 + (3 × 4)
+
+= 4012
+
+3. A[7]
+
+= 4000 + (7 × 4)
+
+= 4028
 
 **2D row-major worksheet:** Given `M[4][5]`, `B=2000`, `w=4`, calculate `M[2][3]`. Show the linear offset and explain why it is multiplied by element width.
 
