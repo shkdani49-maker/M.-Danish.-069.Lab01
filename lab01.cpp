@@ -1,4 +1,4 @@
- function:
+Insert function:
 
 bool insertAt(int a[], int& size, int cap, int pos, int x) {
     if (size == cap || pos < 0 || pos > size)
