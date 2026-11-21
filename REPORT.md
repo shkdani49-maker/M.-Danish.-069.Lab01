@@ -1,9 +1,9 @@
 # CSC-531 Lab 01 — Student Report
 
-**Roll No.:**  
-**Student name:**  
-**Section (A/B):**  
-**GitHub username:**  
+**Roll No.: 69
+**Student name: M.Danish sheikh
+**Section (A/B): B 
+**GitHub username: shkdani 
 
 ## 1. Aim and input assumptions
 
