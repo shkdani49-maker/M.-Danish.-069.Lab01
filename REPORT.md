@@ -191,28 +191,43 @@ Exit: Closes the program.
 
 Sample run:
 
-Enter choice: 1
+Enter choice:
+ 1
 Array: 70 80 90 85
+
 Size: 4
 
-Enter choice: 2
+
+Enter choice:
+2
 Enter index: 2
+
 Enter value: 75
+
 Array: 70 80 75 90 85
 
-Enter choice: 3
+
+Enter choice:
+ 3
 Enter index: 1
+
 Array: 70 75 90 85
 
-Enter choice: 2
+Enter choice:
+ 2
 Array is full!
+
 Insertion failed.
 
-Enter choice: 3
+Enter choice:
+ 3
 Array is empty!
+
 Deletion failed.
 
-Enter choice: 4
+
+Enter choice:
+ 4
 Program exited.
 
 ## 5. Validation test table
