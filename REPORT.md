@@ -9,6 +9,29 @@
 
 Describe the task and state the relationship among capacity, logical size and active indices.
 
+Ans: Aim:
+Understand an array of 8 slots with logical size 4 and calculate the memory addresses of 1D and 2D array elements using address formulas.
+
+Input Assumptions:
+
+Capacity = 8
+
+Logical size = 4
+
+Active indices = 0,1,2,3.
+
+Free indices = 4,5,6.7.
+
+Next append index = 4.
+
+Relationship:
+
+Capacity represents the total number of slots.
+
+Logical size represents the number of active elements. 
+
+Active indices range from 0 to Logical Size -1. 
+
 ## 2. Task A — Array diagram and address calculations:
 Draw **8 slots with logical size 4**. Label indices, active items, free slots and the next append index.
 
