@@ -6,7 +6,7 @@
 
 **Section (A/B): B 
 
-**GitHub username: shkdani 
+**GitHub username: shkdani49 
 
 
 ## 1. Aim and input assumptions
